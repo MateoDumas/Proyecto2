@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+html{
+    font-size: 10px;
+}
+/*  Estilos para el cuerpo y navegacion */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(71, 84, 158, 0.342) ; /* Color de fondo para todo el cuerpo */
+
+}
+/* Estilos para el apartado formulario */
+.navbar-brand {
+    color: #000000; /* Color del texto del logo */
+
+}
+.nav-link{color: #f8f9fa;}/* Color de los enlaces del navbar */
+
+.bg-body-gris{
+       background-color: #6c757d;
+}
+/* Estilos del formulario */
+#formularioDatos { 
+    width: 40rem;
+    height: auto;
+    margin: 0 auto; /* Centrar el formulario en la página */
+    background-color: rgba(63, 61, 61, 0.178); /* Color de fondo del formulario */
+    border: solid 1px black;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+    font-size: 1.5rem;
+}
+.form-label {
+    font-weight: bold;
+    /* Texto de las etiquetas en negrita */
+}
+
+.form-control {
+    margin-bottom: 15px; /* Espacio entre los elementos del formulario */
+}
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón principal */
+    border-color: #007bff;
+    font-size: medium;/* Color del borde del botón principal */
+}
+.btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color al pasar el mouse */
+    border-color: #0056b3; /* Cambio de color del borde al pasar el mouse */
+}
+.mb-3{
+    padding: 0.7rem 0;
+}
+
+.mb-3 label{
+    color: rgba(0,0,0,0.9);
+}
+
+.mb-3 input{
+    border-color: rgb(105, 105, 105);
+}
+
+.mb-3 input:hover{
+    border-color: #007bff;
+}
+
+/* Estilos para la lista de personas */
+#listaPersonas {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+.elementoLista{
+    background-color: rgb(99, 106, 230);
+    border-radius: 10px;
+    width: auto;
+    padding: 2rem;
+    margin: 1rem;
+    height: auto;
+}
+
+    .botonEliminar{
+        padding: 0.7rem;
+        color: #fff;
+        border-radius: 1.2rem;
+        background-color: rgb(178, 34, 34);
+        box-shadow: 0 2px rgb(139, 0, 0);
+    }
+
+    
+.list-elements-label {
+    color: #000000
+}
